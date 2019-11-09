@@ -1,0 +1,370 @@
+@charset "UTF-8";
+.hero {
+  height: 820px;
+  background: url("../img/background.png") no-repeat center center;
+  display: flex;
+  align-items: center; }
+  .hero .container {
+    display: flex;
+    flex-direction: column; }
+    .hero .container .title {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 4.8px;
+      text-align: center; }
+    .hero .container .description {
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 22px;
+      font-weight: 200;
+      line-height: 26px;
+      letter-spacing: 6.82px;
+      text-align: center;
+      padding: 15px 0 50px 0; }
+    .hero .container .search form.search__form input[type="text"] {
+      height: 60px;
+      font-size: 17px;
+      border: 2px solid #fff;
+      float: left;
+      width: 70%;
+      background: #f1f1f1;
+      color: #999999;
+      font-family: "Josefin Sans";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 2.8px;
+      text-align: center; }
+    .hero .container .search form.search__form button {
+      height: 60px;
+      float: left;
+      width: 30%;
+      background-color: #5474fd;
+      color: white;
+      font-size: 17px;
+      border-left: none;
+      cursor: pointer;
+      border: 2px solid #ffffff;
+      text-decoration: none;
+      color: #ffffff;
+      font-family: "Aleo";
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1.4px; }
+    .hero .container .search form.search__form button:hover {
+      background: #0b7dda; }
+    .hero .container .search form.search__form::after {
+      content: "";
+      clear: both;
+      display: table; }
+    @media (min-width: 992px) {
+      .hero .container .search .form-inline .input-group .form-control {
+        width: 225px; } }
+    @media (max-width: 992px) {
+      .hero .container .search .form-inline {
+        display: block; } }
+    .hero .container .scroll {
+      padding-top: 120px;
+      display: flex;
+      flex-direction: column; }
+      .hero .container .scroll .scroll__text {
+        color: #ffffff;
+        font-family: "Josefin Sans";
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+        letter-spacing: 2.8px;
+        display: flex;
+        justify-content: center; }
+      .hero .container .scroll .arrow {
+        color: #ffffff;
+        font-size: 10px;
+        display: flex;
+        justify-content: center; }
+
+.navbar__customize {
+  background-color: #5474fd;
+  display: flex;
+  justify-content: center; }
+  .navbar__customize .navbar__brand__customize {
+    /* Style for "Bhromaon" */
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Bhromaon" */
+    letter-spacing: 2.4px; }
+  .navbar__customize .navbar__nav__customize a {
+    color: #ffffff;
+    font-family: "Aleo";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase; }
+
+.why {
+  background: url("/img/Rectangle_7.png") no-repeat center center;
+  height: 685px;
+  display: flex;
+  align-items: center; }
+  .why .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+    .why .container .text {
+      height: 350px; }
+    .why .container .title {
+      color: #ffffff;
+      font-family: "Aleo", serif;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px; }
+    .why .container .description {
+      color: #e8e8e8;
+      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 1.6px;
+      padding: 30px 60px 30px 0px; }
+    .why .container .explore {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 225px;
+      height: 60px;
+      background-color: #486afe;
+      color: #ffffff;
+      font-family: "Aleo", serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px; }
+  .why .pics .mountains {
+    display: flex;
+    justify-content: flex-end; }
+
+.what__we__do {
+  height: 337px;
+  background-color: #333333;
+  display: flex;
+  align-items: center; }
+  .what__we__do .container .poster {
+    display: flex;
+    flex-direction: column; }
+    .what__we__do .container .poster .icon {
+      display: flex;
+      justify-content: center; }
+    .what__we__do .container .poster .text {
+      display: flex;
+      justify-content: center;
+      /* Style for "Search Pla" */
+      color: #e8e8e8;
+      font-family: "Aleo";
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 26px;
+      padding: 35px; }
+
+.traverl__first__spain {
+  height: 700px;
+  background: url("../img/Rectangle_414.png") no-repeat center center;
+  display: flex;
+  align-items: center; }
+  .traverl__first__spain .container .poster {
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column; }
+    .traverl__first__spain .container .poster .title {
+      /* Style for "Spain" */
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      /* Text style for "Spain" */
+      letter-spacing: 1.5px;
+      padding-top: 50px; }
+    .traverl__first__spain .container .poster .description {
+      /* Style for "Grand Spai" */
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      padding: 30px 0; }
+    .traverl__first__spain .container .poster .text {
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      padding-bottom: 50px; }
+    .traverl__first__spain .container .poster .book__now {
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      /* Style for "Book Now" */
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "Book Now" */
+      letter-spacing: 1.2px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+
+.travel__second__spain {
+  height: 700px;
+  background: url("../img/Rectangle_4141.png") no-repeat center center;
+  display: flex;
+  align-items: center; }
+  .travel__second__spain .container .poster {
+    height: 371px;
+    background-color: #232323;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column; }
+    .travel__second__spain .container .poster .title {
+      /* Style for "Spain" */
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      /* Text style for "Spain" */
+      letter-spacing: 1.5px;
+      padding-top: 50px; }
+    .travel__second__spain .container .poster .description {
+      /* Style for "Grand Spai" */
+      color: #ffffff;
+      font-family: "Josefin Sans";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      padding: 30px 0; }
+    .travel__second__spain .container .poster .text {
+      color: #e8e8e8;
+      font-family: "Josefin Sans";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      padding-bottom: 50px; }
+    .travel__second__spain .container .poster .book__now {
+      width: 225px;
+      height: 60px;
+      background-color: #5474fd;
+      /* Style for "Book Now" */
+      color: #ffffff;
+      font-family: Aleo;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      text-transform: uppercase;
+      /* Text style for "Book Now" */
+      letter-spacing: 1.2px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+
+.tourist__say {
+  height: 731px;
+  background: url("../img/Rectangle_4142.png") no-repeat center center;
+  display: flex;
+  align-items: center; }
+  .tourist__say .container .title {
+    color: #ffffff;
+    font-family: Aleo;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 120px 0 100px 0;
+    display: flex;
+    justify-content: center; }
+  .tourist__say .container .content {
+    display: flex;
+    flex-direction: column; }
+    .tourist__say .container .content .photo {
+      height: 284px;
+      background: url("../img/Rectangle_41441.png") no-repeat center center; }
+    .tourist__say .container .content .feedback {
+      /* Style for "Rectangle" */
+      width: 665px;
+      height: 284px;
+      background-color: #333333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .tourist__say .container .content .feedback .feedback__title {
+        color: #fefefe;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase; }
+      .tourist__say .container .content .feedback .feedback__description {
+        color: #e8e8e8;
+        font-family: "Josefin Sans";
+        font-size: 16px;
+        font-weight: 400;
+        padding: 20px 20px 20px 0; }
+        .tourist__say .container .content .feedback .feedback__description .fa-quote-left {
+          position: relative;
+          /* Абсолютное позиционирование */
+          bottom: 15px;
+          color: #5474fd; }
+
+.footer {
+  height: 268px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .footer .title {
+    /* Style for "Bhromaon" */
+    width: 163px;
+    height: 20px;
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    /* Text style for "Bhromaon" */
+    letter-spacing: 3.36px; }
+  .footer .description {
+    color: #ffffff;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    padding: 15px 0 30px 0; }
+  .footer .icons {
+    width: 166px;
+    display: flex;
+    justify-content: space-between; }
+    .footer .icons i {
+      color: #e8e8e8;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px; }
+    .footer .icons i:hover {
+      color: #5474fd; }
